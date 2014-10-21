@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
 # Use postgresql as the database for Active Record
@@ -13,11 +12,10 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
+gem 'angularjs-rails'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
-# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
@@ -43,7 +41,11 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'spree', github: 'spree/spree', branch: '2-4-stable'
-
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-4-stable'
-
 gem 'spree_gateway', github: 'spree/spree_gateway', branch: '2-4-stable'
+
+#gem 'spree_core', github: 'spree/spree', branch: '2-4-stable'
+#gem 'spree_backend', github: 'spree/spree', branch: '2-4-stable'
+#gem 'spree_api', github: 'spree/spree', branch: '2-4-stable'
+#gem 'spree_auth_devise', github: 'spree/spree_auth_devise'
+
