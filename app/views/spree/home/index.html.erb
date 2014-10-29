@@ -1,7 +1,13 @@
+<%#I would say I like the simplicity of the view, the id's you're using, but still, you could remove 2 elements,%>
+<%#the div with the ng-controller and the div with the id products-list-container, you could had make the ul%>
+<%#as the product list container and the ng controller%>
 <div ng-controller="ProductsCtrl">
   <div id="products-list-container">
     <ul>
       <li ng-repeat="product in products">
+        <%#Just as a small recommentation, for SEO and semantics, it would be better to represent the product name as H1 o H2,%>
+        <%#depending on the whole structure you have, this will help on displaying the info on search engine results or feeds%>
+        <%#Also, H will represent the importance of the resource (in this case, the product)%>
         <span>{{product.name}}</span>
       </li>
     </ul>
